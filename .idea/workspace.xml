@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cb554f9-5b9a-4836-8abd-3bc196b5b5e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,19 +17,6 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <excluded-from-favorite>
-      <branch-storage>
-        <map>
-          <entry type="REMOTE">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </excluded-from-favorite>
     <favorite-branches>
       <branch-storage>
         <map>
@@ -182,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602681626531</updated>
       <workItem from="1602681634697" duration="7497000" />
-      <workItem from="1602753830311" duration="5404000" />
+      <workItem from="1602753830311" duration="7853000" />
     </task>
     <task id="LOCAL-00001" summary="Heroku">
       <created>1602759171599</created>
@@ -226,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602762867002</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Heroku">
+      <created>1602763544327</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602763544327</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,10 +249,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602762464826" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1602762865895">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1602763543164">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602762865895" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602763543164" />
     <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1602694103262">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -286,10 +281,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="571" y="314" key="SymfonyPathDialog/0.0.1536.824@0.0.1536.824" timestamp="1602694116146" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602762874024">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602765369197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602762874024" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602765369197" />
     <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1602762803780">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
