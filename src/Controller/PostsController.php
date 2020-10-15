@@ -21,7 +21,6 @@ class PostsController extends AbstractController
     public function index()
     {
 
-        dd($this->em);
         return $this->render('posts/index.html.twig', [
             'controller_name' => 'PostsController',
         ]);

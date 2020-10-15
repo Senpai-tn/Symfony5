@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cb554f9-5b9a-4836-8abd-3bc196b5b5e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PostsController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602681626531</updated>
       <workItem from="1602681634697" duration="7497000" />
-      <workItem from="1602753830311" duration="2605000" />
+      <workItem from="1602753830311" duration="2700000" />
     </task>
     <task id="LOCAL-00001" summary="Heroku">
       <created>1602759171599</created>
