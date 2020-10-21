@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\Car;
 use App\Entity\Post;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpFoundation\Request;
@@ -15,7 +16,7 @@ class PostsController extends AbstractController
 
 
     /**
-     * @Route("/", name="posts",methods="GET|POST")
+     * @Route("/", name="home",methods="GET|POST")
      */
     public function index(Request $r,EntityManagerInterface $em)
     {
@@ -33,10 +34,22 @@ class PostsController extends AbstractController
 //            'controller_name' => 'PostsController',
 //            'form'=>$form->createView()
 //        ]);
- 
-        $posts = $em->getRepository(Post::class)->findAll();
+
+        $cars = $em->getRepository(Car::class)->findAll();
 
 //        return new Response(count($posts));
-        return $this->render('base.html.twig');
+        return $this->render('base.html.twig',[
+            'cars'=>$cars
+        ]);
     }
+
+    /**
+     * @Route("/admin")
+     */
+    public function admin()
+    {
+        return new Response("admin");
+    }
+
+
 }

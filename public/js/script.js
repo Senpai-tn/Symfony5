@@ -37,8 +37,8 @@ include('js/device.min.js');
 include('js/tmstickup.js');
 $(window).load(function() { 
   if ($('html').hasClass('desktop')) {
-      $('#stuck_container').TMStickUp({
-      })
+      /*$('#stuck_container').TMStickUp({
+      })*/
   }  
 });
 

@@ -313,8 +313,8 @@ h6 {
                     HEADER styles
 =========================================================*/
 #header {
-  position: relative;
   z-index: 4;
+
 }
 #header .info {
   padding: 22px 0 16px;
@@ -335,12 +335,20 @@ h6 {
   color: #ffffff;
   display: inline-block;
 }
+
+
+
 #header .info .authorization-block .create:hover,
 #header .info .authorization-block .login:hover {
   color: #8ad329;
 }
 #header .info .authorization-block .create {
   color: #8ad329;
+}
+
+.logout:hover
+{
+  color: red;
 }
 #header .info .authorization-block .create:hover {
   color: #ffffff;
@@ -596,7 +604,7 @@ nav {
 }
 @media only screen and (max-width: 767px) {
   .sf-menu {
-    display: none;
+    display: block;
   }
   nav {
     width: 100%;
@@ -604,7 +612,7 @@ nav {
   }
   .select-menu {
     border-radius: none;
-    display: block;
+    display: none;
     text-transform: capitalize;
     float: none;
     color: #aaaaaa;
@@ -618,6 +626,8 @@ nav {
     padding: 2px 0;
     position: relative;
   }
+
+
   .select-menu option {
     text-align: left;
     position: relative;
@@ -755,7 +765,7 @@ nav {
   float: left;
 }
 .box1 .info .second {
-  float: right;
+  float: left;
 }
 .box1 .info2 .price {
   float: left;

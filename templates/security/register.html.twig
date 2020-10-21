@@ -1,0 +1,13 @@
+<div>
+    <ul>
+        {% if errors|length > 0 %}
+                <li>{{ errors }}</li>
+        {% endif %}
+    </ul>
+</div>
+
+{{ form_start(form) }}
+
+{{ form_widget(form) }}
+<input type="submit" value="Register">
+{{ form_end(form) }}
