@@ -16,7 +16,7 @@ class UserController extends AbstractController
     }
 
     /**
-     * @Route("/@{username}", name="user")
+     * @Route("/profile/{username}", name="user")
      */
     public function index($username)
     {
