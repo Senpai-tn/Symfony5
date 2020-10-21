@@ -21,6 +21,8 @@ class UserController extends AbstractController
     public function index($username)
     {
         $user = $this->em->getRepository(User::class)->findOneBy(['username' =>$username]);
+
+        dd($user);
         return $this->render('user/index.html.twig', [
             'u' => $user,
         ]);
